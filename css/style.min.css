@@ -2894,7 +2894,11 @@ h6 {
 @media (max-width: 1024.98px) {
   .search-form__input {
     width: 100%;
-    max-width: 100%;
+  }
+}
+@media (max-width: 480.98px) {
+  .search-form__input {
+    max-width: calc(100dvw - 74px);
   }
 }
 
