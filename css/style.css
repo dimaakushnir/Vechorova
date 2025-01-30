@@ -177,6 +177,10 @@ body.lock {
   }
 }
 
+main {
+  max-width: 100%;
+}
+
 h1 {
   font-family: TenorSans;
   font-size: 56px;
