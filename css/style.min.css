@@ -148,8 +148,6 @@ body.lock {
   width: 100%;
   min-height: 100%;
   position: relative;
-  display: flex;
-  flex-direction: column;
   overflow: hidden;
 }
 .wrapper.overflow {
@@ -175,10 +173,6 @@ body.lock {
   .container {
     padding: 0 20px;
   }
-}
-
-main {
-  max-width: 100%;
 }
 
 h1 {
