@@ -2816,7 +2816,7 @@ h6 {
 }
 @media (max-width: 480.98px) {
   .search-form {
-    max-width: 100%;
+    max-width: 100dvw;
     position: fixed;
     left: 0;
     bottom: -120%;
