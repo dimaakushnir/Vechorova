@@ -2828,9 +2828,19 @@ h6 {
     padding: 20px 20px 24px 20px;
     z-index: 1;
     transition: all 0.3s ease-out;
+    display: none;
   }
   .search-form.active {
     bottom: 60px;
+  }
+}
+.search-form_mobile {
+  display: none;
+}
+@media (max-width: 480.98px) {
+  .search-form_mobile {
+    display: flex;
+    position: absolute;
   }
 }
 .search-form__btn {
@@ -2977,6 +2987,14 @@ h6 {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+  }
+}
+@media (max-width: 480.98px) {
+  .panel-mobile-header .search-form {
+    display: none;
+  }
+  .panel-mobile-header .search-form.search-form_mobile {
+    display: flex;
   }
 }
 .panel-mobile-header__container {
