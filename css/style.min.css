@@ -3050,6 +3050,14 @@ h6 {
   pointer-events: none;
   transition: all 0.3s ease-out;
   transform: translate(0, 30px);
+  height: 100dvh;
+  overflow: auto;
+  padding: 0 0 100px 0;
+}
+@media (max-width: 1024.98px) {
+  .catalog-header {
+    padding: 0 0 257px 0;
+  }
 }
 .catalog-header.active {
   opacity: 1;
