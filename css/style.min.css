@@ -2840,9 +2840,8 @@ h6 {
 @media (max-width: 480.98px) {
   .search-form_mobile {
     display: flex;
-    position: absolute;
+    position: relative;
     bottom: auto;
-    top: 100%;
   }
 }
 .search-form__btn {
