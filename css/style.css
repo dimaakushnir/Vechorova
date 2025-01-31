@@ -2841,6 +2841,8 @@ h6 {
   .search-form_mobile {
     display: flex;
     position: absolute;
+    bottom: auto;
+    top: 100%;
   }
 }
 .search-form__btn {
