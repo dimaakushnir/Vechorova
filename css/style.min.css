@@ -4357,8 +4357,14 @@ h6 {
     height: auto;
     padding: 10px 0;
   }
+  .item-category-home .item-category-home__image-block {
+    display: none;
+  }
   .item-category-home.active .item-category-home__btn-more {
     opacity: 1;
+  }
+  .item-category-home.active .item-category-home__image-block {
+    display: block;
   }
 }
 @media (min-width: 1175px) {
