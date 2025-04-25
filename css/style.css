@@ -4356,6 +4356,7 @@ h6 {
     align-items: flex-start;
     height: auto;
     padding: 10px 0;
+    transition: all 0s ease-out;
   }
   .item-category-home .item-category-home__image-block {
     display: none;
@@ -4365,6 +4366,34 @@ h6 {
   }
   .item-category-home.active .item-category-home__image-block {
     display: block;
+  }
+  .item-category-home.fixed {
+    padding-top: 54px;
+  }
+}
+@media (max-width: 1175px) and (max-width: 1024.98px) {
+  .item-category-home.fixed {
+    padding-top: 52px;
+  }
+}
+@media (max-width: 1175px) and (max-width: 768.98px) {
+  .item-category-home.fixed {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1175px) and (max-width: 480.98px) {
+  .item-category-home.fixed {
+    padding-top: 47.5px;
+  }
+}
+@media (max-width: 1175px) {
+  .item-category-home.fixed .item-category-home__title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 10px;
   }
 }
 @media (min-width: 1175px) {
@@ -4388,6 +4417,9 @@ h6 {
   }
   .item-category-home_catalog.active .item-category-home__title {
     color: #380110;
+  }
+  .item-category-home_catalog.fixed .item-category-home__title {
+    background: #DBCCD0;
   }
   .item-category-home_catalog .item-category-home__image-block {
     display: block;
@@ -4415,6 +4447,9 @@ h6 {
   .item-category-home_footwear.active .item-category-home__title {
     color: #2F5884;
   }
+  .item-category-home_footwear.fixed .item-category-home__title {
+    background-color: #E9EEF1;
+  }
 }
 .item-category-home_footwear .item-category-home__image-block {
   z-index: 2;
@@ -4435,6 +4470,9 @@ h6 {
 }
 .item-category-home_bags.active .item-category-home__title {
   color: #eb92dc;
+}
+.item-category-home_bags.fixed .item-category-home__title {
+  background: #FAEEF8;
 }
 .item-category-home_bags .item-category-home__image-block {
   z-index: 3;
@@ -4457,6 +4495,9 @@ h6 {
 .item-category-home_accessories.active .item-category-home__title {
   color: #f0ae97;
 }
+.item-category-home_accessories.fixed .item-category-home__title {
+  background: #FDF7F5;
+}
 .item-category-home_accessories .item-category-home__image-block {
   z-index: 4;
 }
@@ -4475,6 +4516,7 @@ h6 {
   .item-category-home__title {
     width: 100%;
     padding: 0 0 12px 20px;
+    transition: all 0s ease-out;
   }
 }
 .item-category-home__image-block {
