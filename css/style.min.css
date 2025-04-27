@@ -3882,12 +3882,30 @@ h6 {
     padding: 32px 0 0 0;
   }
 }
+.home__main:not(:last-child) {
+  margin: 0 0 60px 0;
+}
+@media (max-width: 1024.98px) {
+  .home__main:not(:last-child) {
+    margin: 0 0 50px 0;
+  }
+}
+@media (max-width: 480.98px) {
+  .home__main:not(:last-child) {
+    margin: 0 0 40px 0;
+  }
+}
 .home__category:not(:last-child) {
-  margin: 0 0 66px 0;
+  margin: 0 0 126px 0;
+}
+@media (max-width: 1024.98px) {
+  .home__category:not(:last-child) {
+    margin: 0 0 116px 0;
+  }
 }
 @media (max-width: 480.98px) {
   .home__category:not(:last-child) {
-    margin: 0 0 60px 0;
+    margin: 0 0 100px 0;
   }
 }
 .home__novelty:not(:last-child) {
@@ -4317,18 +4335,16 @@ h6 {
 }
 
 .category-home {
-  padding: 60px 0;
   position: relative;
 }
-@media (max-width: 1024.98px) {
-  .category-home {
-    padding: 50px 0;
-  }
-}
-@media (max-width: 480.98px) {
-  .category-home {
-    padding: 40px 0;
-  }
+.category-home.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  background: #fff;
+  z-index: 99;
 }
 .item-category-home {
   display: flex;
@@ -4418,12 +4434,6 @@ h6 {
   .item-category-home_catalog.active .item-category-home__title {
     color: #380110;
   }
-  .item-category-home_catalog.fixed .item-category-home__title {
-    background: #DBCCD0;
-  }
-  .item-category-home_catalog .item-category-home__image-block {
-    display: block;
-  }
 }
 .item-category-home_catalog .item-category-home__image-block {
   z-index: 1;
@@ -4447,9 +4457,6 @@ h6 {
   .item-category-home_footwear.active .item-category-home__title {
     color: #2F5884;
   }
-  .item-category-home_footwear.fixed .item-category-home__title {
-    background-color: #E9EEF1;
-  }
 }
 .item-category-home_footwear .item-category-home__image-block {
   z-index: 2;
@@ -4471,9 +4478,6 @@ h6 {
 .item-category-home_bags.active .item-category-home__title {
   color: #eb92dc;
 }
-.item-category-home_bags.fixed .item-category-home__title {
-  background: #FAEEF8;
-}
 .item-category-home_bags .item-category-home__image-block {
   z-index: 3;
 }
@@ -4494,9 +4498,6 @@ h6 {
 }
 .item-category-home_accessories.active .item-category-home__title {
   color: #f0ae97;
-}
-.item-category-home_accessories.fixed .item-category-home__title {
-  background: #FDF7F5;
 }
 .item-category-home_accessories .item-category-home__image-block {
   z-index: 4;
@@ -4552,7 +4553,6 @@ h6 {
     top: auto;
     padding: 0 0 75.8213334% 0;
     border-radius: 2.24px;
-    display: none;
     transition: all 0s ease-out;
   }
 }
@@ -5995,21 +5995,15 @@ h6 {
 .item-info-product__list-item:not(:last-child) {
   margin: 0 0 10px 0;
 }
-@media (max-width: 480.98px) {
-  .item-info-product__list-item {
-    display: block;
-  }
-}
 .item-info-product__label {
-  min-width: 153px;
+  flex: 0 0 203px;
   margin: 0 20px 0 0;
   text-transform: uppercase;
   color: #A7A7A7;
 }
 @media (max-width: 480.98px) {
   .item-info-product__label {
-    min-width: 0;
-    margin: 0 0 6px 0;
+    flex: 0 0 calc(50% - 10px);
   }
 }
 .item-info-product__value {
