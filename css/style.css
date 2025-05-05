@@ -3668,7 +3668,7 @@ h6 {
   padding: 20px 0;
   background: #490013;
 }
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
   .bottom-footer {
     padding: 20px 0 8px 0;
   }
@@ -3678,7 +3678,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
   .bottom-footer__row {
     flex-direction: column;
   }
@@ -3690,7 +3690,7 @@ h6 {
   text-transform: uppercase;
   color: #F4D6CB;
 }
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
   .bottom-footer__copyright:not(:last-child) {
     margin: 0 0 20px 0;
   }
@@ -3700,11 +3700,17 @@ h6 {
     font-size: 10px;
   }
 }
+@media (max-width: 1150px) {
+  .bottom-footer__developer {
+    margin: 0 0 12px 0;
+  }
+}
+
 .menu-bottom-footer__list {
   display: flex;
   align-items: center;
 }
-@media (max-width: 900px) {
+@media (max-width: 1500px) {
   .menu-bottom-footer__list {
     margin: 0 -15px;
     flex-wrap: wrap;
@@ -3715,7 +3721,7 @@ h6 {
   margin: 0 0 0 40px;
   overflow: hidden;
 }
-@media (max-width: 900px) {
+@media (max-width: 1150px) {
   .menu-bottom-footer__item {
     margin: 0;
     padding: 0 15px;
@@ -3818,6 +3824,15 @@ h6 {
   display: flex;
   padding: 0 0 8px 0;
   background-color: transparent;
+}
+
+.developer__logo {
+  display: flex;
+  width: 123px;
+  height: 44px;
+}
+.developer__logo img {
+  max-width: 100%;
 }
 
 .top-baner {
@@ -4382,34 +4397,6 @@ h6 {
   }
   .item-category-home.active .item-category-home__image-block {
     display: block;
-  }
-  .item-category-home.fixed {
-    padding-top: 54px;
-  }
-}
-@media (max-width: 1175px) and (max-width: 1024.98px) {
-  .item-category-home.fixed {
-    padding-top: 52px;
-  }
-}
-@media (max-width: 1175px) and (max-width: 768.98px) {
-  .item-category-home.fixed {
-    padding-top: 50px;
-  }
-}
-@media (max-width: 1175px) and (max-width: 480.98px) {
-  .item-category-home.fixed {
-    padding-top: 47.5px;
-  }
-}
-@media (max-width: 1175px) {
-  .item-category-home.fixed .item-category-home__title {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    padding-top: 10px;
   }
 }
 @media (min-width: 1175px) {
