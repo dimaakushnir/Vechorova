@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <title>Оформлення замовлення</title>
+    <title>Магазини</title>
 </head>
 
 <body>
@@ -217,6 +217,36 @@
                 </svg>
             </span>
         </button>
+        <div class="top-baner top-baner_blue">
+    <div class="top-baner__row">
+        <div class="top-baner__icon">
+            <svg>
+                <use xlink:href="#baner-pattern"></use>
+            </svg>
+        </div>
+        <div class="top-baner__text">Весінній розпродаж</div>
+        <div class="top-baner__icon">
+            <svg>
+                <use xlink:href="#baner-pattern"></use>
+            </svg>
+        </div>
+    </div>
+</div>
+<!-- <div class="top-baner top-baner_red">
+    <div class="top-baner__row">
+        <div class="top-baner__icon">
+            <svg>
+                <use xlink:href="#baner-pattern"></use>
+            </svg>
+        </div>
+        <div class="top-baner__text">Весінній розпродаж</div>
+        <div class="top-baner__icon">
+            <svg>
+                <use xlink:href="#baner-pattern"></use>
+            </svg>
+        </div>
+    </div>
+</div> -->
         <header class="header">
     <div class="header__main">
         <div class="header__container container">
@@ -3108,1180 +3138,111 @@
         </div>
     </div>
 </div>
-        <main class="checkout">
-            <div class="checkout__breadcrumbs breadcrumbs">
-                <div class="breadcrumbs__container container">
-                    <ul class="breadcrumbs__list">
-                        <li class="breadcrumbs__item">
-                            <a href="" class="breadcrumbs__link">Головна</a>
-                        </li>
-                        <li class="breadcrumbs__item">
-                            <span class="breadcrumbs__arrow">
-                                <svg>
-                                    <use xlink:href="#arrow"></use>
-                                </svg>
-                            </span>
-                            <span class="breadcrumbs__page">оформлення замовлення</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <section class="checkout__main">
-                <form action="#" class="checkout__form">
-                    <div class="checkout__row">
-                        <div class="checkout__column checkout__column_content">
-                            <div class="checkout__body">
-                                <div class="checkout__user user-checkout">
-                                    <div class="user-checkout__content">
-                                        <div class="user-checkout__icon">
-                                            <img src="img/icons/user.svg" alt="user-img">
-                                        </div>
-                                        <div class="user-checkout__text text">Вже маєте особистий кабінет?
-                                        </div>
+        <main class="shops">
+            <section class="shops__main">
+                <div class="shops__container container">
+                    <div class="shops__top">
+                        <h1 class="shops__title">Магазини</h1>
+                    </div>
+                    <div class="shops__body">
+                        <div class="shops__city">Київ</div>
+                        <div class="shops__row">
+                            <div class="shops__column">
+                                <div class="shops__item item-shops">
+                                    <div class="item-shops__title">NewWay</div>
+                                    <div class="item-shops__adress">Архітектора Вербицького 1</div>
+                                    <div class="item-shops__find">
+                                        1 поверх
                                     </div>
-                                    <a href="" class="user-checkout__btn btn-border">увійти</a>
-                                </div>
-                                <div class="checkout__items">
-                                    <div class="checkout__item item-checkout active">
-                                        <div class="item-checkout__content">
-                                            <div class="item-checkout__top top-item-checkout">
-                                                <h5 class="top-item-checkout__title checkout__title">1. Контактна
-                                                    інформація
-                                                </h5>
-                                                <a href="" class="top-item-checkout__btn text">Змінити</a>
-                                                <span class="top-item-checkout__info text">Не заповнено</span>
-                                            </div>
-                                            <div class="item-checkout__body">
-                                                <div class="item-checkout__inputs inputs">
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__dropdown-block">
-                                                                <div
-                                                                    class="form__dropdown dropdown dropdown dropdown-input dropdown-select">
-                                                                    <button class="dropdown__btn">
-                                                                        <span class="dropdown__btn-text">Країна</span>
-                                                                        <span class="dropdown__btn-icon">
-                                                                            <svg>
-                                                                                <use xlink:href="#arrow"></use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </button>
-                                                                    <ul class="dropdown__list">
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                    </ul>
-                                                                    <input autocomplete='off' value="Перша опція"
-                                                                        type='text' name='form[]'
-                                                                        class='dropdown__input-hidden'>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="Ім’я" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="Прізвище" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="По батькові" autocomplete='off'
-                                                                type='text' name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="+380" autocomplete='off' type='tel'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__checkbox checkbox">
-                                                                <div class="checkbox__item">
-                                                                    <input id="anotherPerson" type='checkbox'
-                                                                        name='form[]'
-                                                                        class='checkbox__input checkbox__input_show'>
-                                                                    <label for="anotherPerson"
-                                                                        class="checkbox__label text">
-                                                                        Отримувати буде інша людина
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_hide hide">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="Ім’я" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="Прізвище" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_hide hide">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="По батькові" autocomplete='off'
-                                                                type='text' name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <input placeholder="+380" autocomplete='off' type='tel'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_btn">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <button type='button'
-                                                                class='form__btn form__btn_next btn btn_bg'>Наступний
-                                                                крок</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="item-shops__time">
+                                        щоденно
+                                        <span>10:00 - 22:00</span>
                                     </div>
-                                    <div class="checkout__item item-checkout">
-                                        <div class="item-checkout__content">
-                                            <div class="item-checkout__top top-item-checkout">
-                                                <h5 class="top-item-checkout__title checkout__title">2. Спосіб доставки
-                                                </h5>
-                                                <a href="" class="top-item-checkout__btn text">Змінити</a>
-                                                <span class="top-item-checkout__info text">Не заповнено</span>
-                                            </div>
-                                            <div class="item-checkout__body">
-                                                <div class="item-checkout__inputs">
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__dropdown-block">
-                                                                <div
-                                                                    class="form__dropdown dropdown dropdown dropdown-input dropdown-select">
-                                                                    <button class="dropdown__btn">
-                                                                        <span class="dropdown__btn-text">Мої
-                                                                            адреси</span>
-                                                                        <span class="dropdown__btn-icon">
-                                                                            <svg>
-                                                                                <use xlink:href="#arrow"></use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </button>
-                                                                    <ul class="dropdown__list">
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                    </ul>
-                                                                    <input autocomplete='off' value="Перша опція"
-                                                                        type='text' name='form[]'
-                                                                        class='dropdown__input-hidden'>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__dropdown-block">
-                                                                <div
-                                                                    class="form__dropdown dropdown dropdown dropdown-input dropdown-select dropdown-city">
-                                                                    <button class="dropdown__btn">
-                                                                        <span class="dropdown__btn-text">Місто
-                                                                            одержувача</span>
-                                                                        <span class="dropdown__btn-icon">
-                                                                            <svg>
-                                                                                <use xlink:href="#arrow"></use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </button>
-                                                                    <div class="dropdown__body">
-                                                                        <div class="dropdown__search-item">
-                                                                            <input placeholder="Введіть назву міста"
-                                                                                autocomplete='off' type='text'
-                                                                                name='form[]'
-                                                                                class='form__input dropdown__search-input'>
-                                                                            <span class="dropdown__search-icon">
-                                                                                <svg>
-                                                                                    <use xlink:href="#search"></use>
-                                                                                </svg>
-                                                                            </span>
-                                                                        </div>
-                                                                        <div
-                                                                            class="dropdown__options-btns options-btns">
-                                                                            <div class="options-btns__item">
-                                                                                <input id="dropdowncity1"
-                                                                                    autocomplete='off' type='radio'
-                                                                                    name='form[]'
-                                                                                    class='options-btns__input'>
-                                                                                <label for="dropdowncity1"
-                                                                                    class="options-btns__label">Київ</label>
-                                                                            </div>
-                                                                            <div class="options-btns__item">
-                                                                                <input id="dropdowncity2"
-                                                                                    autocomplete='off' type='radio'
-                                                                                    name='form[]'
-                                                                                    class='options-btns__input'>
-                                                                                <label for="dropdowncity2"
-                                                                                    class="options-btns__label">Запоріжжя</label>
-                                                                            </div>
-                                                                            <div class="options-btns__item">
-                                                                                <input id="dropdowncity3"
-                                                                                    autocomplete='off' type='radio'
-                                                                                    name='form[]'
-                                                                                    class='options-btns__input'>
-                                                                                <label for="dropdowncity3"
-                                                                                    class="options-btns__label">Харків</label>
-                                                                            </div>
-                                                                            <div class="options-btns__item">
-                                                                                <input id="dropdowncity4"
-                                                                                    autocomplete='off' type='radio'
-                                                                                    name='form[]'
-                                                                                    class='options-btns__input'>
-                                                                                <label for="dropdowncity4"
-                                                                                    class="options-btns__label">Дніпро</label>
-                                                                            </div>
-                                                                            <div class="options-btns__item">
-                                                                                <input id="dropdowncity5"
-                                                                                    autocomplete='off' type='radio'
-                                                                                    name='form[]'
-                                                                                    class='options-btns__input'>
-                                                                                <label for="dropdowncity5"
-                                                                                    class="options-btns__label">Львів</label>
-                                                                            </div>
-                                                                        </div>
-                                                                        <ul class="dropdown__list">
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Львівський р-н, Львівська область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Криворізький р-н, Дніпропетровська
-                                                                                    область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Первомайський р-н, Миколаївська
-                                                                                    область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Золотоніський р-н, Черкаська область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Бериславський р-н, Херсонська
-                                                                                    область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Львівський р-н, Львівська область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Криворізький р-н, Дніпропетровська
-                                                                                    область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Первомайський р-н, Миколаївська
-                                                                                    область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Золотоніський р-н, Черкаська область
-                                                                                </span>
-                                                                            </li>
-                                                                            <li class="dropdown__list-item text"
-                                                                                data-dropdown="Львів">
-                                                                                <span
-                                                                                    class="dropdown__item-city">Львів</span>
-                                                                                <span class="dropdown__item-area">
-                                                                                    Бериславський р-н, Херсонська
-                                                                                    область
-                                                                                </span>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                    <input autocomplete='off' value="" type='text'
-                                                                        name='form[]' class='dropdown__input-hidden'>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options-btns options-btns">
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdowncity1" autocomplete='off'
-                                                                        type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdowncity1"
-                                                                        class="options-btns__label">Київ</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdowncity2" autocomplete='off'
-                                                                        type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdowncity2"
-                                                                        class="options-btns__label">Запоріжжя</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdowncity3" autocomplete='off'
-                                                                        type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdowncity3"
-                                                                        class="options-btns__label">Харків</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdowncity4" autocomplete='off'
-                                                                        type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdowncity4"
-                                                                        class="options-btns__label">Дніпро</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdowncity5" autocomplete='off'
-                                                                        type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdowncity5"
-                                                                        class="options-btns__label">Львів</label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div
-                                                        class="form__item form__item_delivery form__item_options-checkout">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div class="options-checkout__item">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="delivery1" autocomplete='off'
-                                                                            type='radio' name='delivery'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="delivery1"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Відділення Нова Пошта
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-icon">
-                                                                                        <img src="img/icons/nova-post.svg"
-                                                                                            alt="nova-post">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-text">
-                                                                                        70 ₴
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="label-options-checkout__bottom">
-                                                                                <div
-                                                                                    class="label-options-checkout__date">
-                                                                                    6 червня
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="options-checkout__bottom">
-                                                                        <div class="form__item">
-                                                                            <div
-                                                                                class="form__item-column form__item-column_full">
-                                                                                <div class="form__dropdown-block">
-                                                                                    <div
-                                                                                        class="form__dropdown dropdown dropdown dropdown-input dropdown-select">
-                                                                                        <button class="dropdown__btn">
-                                                                                            <span
-                                                                                                class="dropdown__btn-text">Оберіть
-                                                                                                відділення /
-                                                                                                поштомат</span>
-                                                                                            <span
-                                                                                                class="dropdown__btn-icon">
-                                                                                                <svg>
-                                                                                                    <use
-                                                                                                        xlink:href="#arrow">
-                                                                                                    </use>
-                                                                                                </svg>
-                                                                                            </span>
-                                                                                        </button>
-                                                                                        <ul class="dropdown__list">
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                        <input autocomplete='off'
-                                                                                            value="Перша опція"
-                                                                                            type='text' name='form[]'
-                                                                                            class='dropdown__input-hidden'>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div class="options-checkout__item">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="delivery2" autocomplete='off'
-                                                                            type='radio' name='delivery'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="delivery2"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Кур’єр Нова Пошта
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-icon">
-                                                                                        <img src="img/icons/nova-post.svg"
-                                                                                            alt="nova-post">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-text">
-                                                                                        90 ₴
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="label-options-checkout__bottom">
-                                                                                <div
-                                                                                    class="label-options-checkout__date">
-                                                                                    6 червня
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="options-checkout__bottom">
-                                                                        <div class="form__item">
-                                                                            <div
-                                                                                class="form__item-column form__item-column_full">
-                                                                                <input placeholder="Адреса доставки"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Будинок"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Квартира"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Під’їзд"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Поверх"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div class="options-checkout__item">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="delivery3" autocomplete='off'
-                                                                            type='radio' name='delivery'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="delivery3"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Відділення Укрпошта
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-icon">
-                                                                                        <img src="img/icons/ukrpost.svg"
-                                                                                            alt="ukrpost">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-text">
-                                                                                        30 ₴
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="label-options-checkout__bottom">
-                                                                                <div
-                                                                                    class="label-options-checkout__date">
-                                                                                    10 червня
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="options-checkout__bottom">
-                                                                        <div class="form__item">
-                                                                            <div
-                                                                                class="form__item-column form__item-column_full">
-                                                                                <div class="form__dropdown-block">
-                                                                                    <div
-                                                                                        class="form__dropdown dropdown dropdown dropdown-input dropdown-select">
-                                                                                        <button class="dropdown__btn">
-                                                                                            <span
-                                                                                                class="dropdown__btn-text">Оберіть
-                                                                                                відділення /
-                                                                                                поштомат</span>
-                                                                                            <span
-                                                                                                class="dropdown__btn-icon">
-                                                                                                <svg>
-                                                                                                    <use
-                                                                                                        xlink:href="#arrow">
-                                                                                                    </use>
-                                                                                                </svg>
-                                                                                            </span>
-                                                                                        </button>
-                                                                                        <ul class="dropdown__list">
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                            <li class="dropdown__list-item text"
-                                                                                                data-dropdown="Перша опція">
-                                                                                                Перша опція
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                        <input autocomplete='off'
-                                                                                            value="Перша опція"
-                                                                                            type='text' name='form[]'
-                                                                                            class='dropdown__input-hidden'>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div class="options-checkout__item">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="delivery4" autocomplete='off'
-                                                                            type='radio' name='delivery'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="delivery4"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Кур’єр Укрпошта
-                                                                                    </div>
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-icon">
-                                                                                        <img src="img/icons/ukrpost.svg"
-                                                                                            alt="ukrpost">
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-text">
-                                                                                        50 ₴
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="label-options-checkout__bottom">
-                                                                                <div
-                                                                                    class="label-options-checkout__date">
-                                                                                    10 червня
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                    <div class="options-checkout__bottom">
-                                                                        <div class="form__item">
-                                                                            <div
-                                                                                class="form__item-column form__item-column_full">
-                                                                                <input placeholder="Адреса доставки"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Будинок"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Квартира"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Під’їзд"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                            <div
-                                                                                class="form__item-column form__item-column_small">
-                                                                                <input placeholder="Поверх"
-                                                                                    autocomplete='off' type='text'
-                                                                                    name='form[]'
-                                                                                    class='form__input text'>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_btn">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <button type='button'
-                                                                class='form__btn form__btn_next btn btn_bg'>Наступний
-                                                                крок</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Якщо за кордон -->
-                                                <div class="item-checkout__inputs">
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__dropdown-block">
-                                                                <div
-                                                                    class="form__dropdown dropdown dropdown dropdown-input dropdown-select">
-                                                                    <button class="dropdown__btn">
-                                                                        <span class="dropdown__btn-text">Мої
-                                                                            адреси</span>
-                                                                        <span class="dropdown__btn-icon">
-                                                                            <svg>
-                                                                                <use xlink:href="#arrow"></use>
-                                                                            </svg>
-                                                                        </span>
-                                                                    </button>
-                                                                    <ul class="dropdown__list">
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                        <li class="dropdown__list-item text"
-                                                                            data-dropdown="Перша опція">
-                                                                            Перша опція
-                                                                        </li>
-                                                                    </ul>
-                                                                    <input autocomplete='off' value="Перша опція"
-                                                                        type='text' name='form[]'
-                                                                        class='dropdown__input-hidden'>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options-btns options-btns">
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdownforeigncountrycity1"
-                                                                        autocomplete='off' type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdownforeigncountrycity1"
-                                                                        class="options-btns__label">Варшава</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdownforeigncountrycity2"
-                                                                        autocomplete='off' type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdownforeigncountrycity2"
-                                                                        class="options-btns__label">Прага</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdownforeigncountrycity3"
-                                                                        autocomplete='off' type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdownforeigncountrycity3"
-                                                                        class="options-btns__label">Лондон</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdownforeigncountrycity4"
-                                                                        autocomplete='off' type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdownforeigncountrycity4"
-                                                                        class="options-btns__label">Гамбург</label>
-                                                                </div>
-                                                                <div class="options-btns__item">
-                                                                    <input id="dropdownforeigncountrycity5"
-                                                                        autocomplete='off' type='radio' name='form[]'
-                                                                        class='options-btns__input'>
-                                                                    <label for="dropdownforeigncountrycity5"
-                                                                        class="options-btns__label">Вена</label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div
-                                                            class="form__item-column form__item-column_medium form__item-column_medium-small">
-                                                            <input placeholder="Місто" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div
-                                                            class="form__item-column form__item-column_medium form__item-column_medium-small">
-                                                            <input placeholder="Індекс" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <input placeholder="Вулиця" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item">
-                                                        <div class="form__item-column form__item-column_small">
-                                                            <input placeholder="Будинок" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_small">
-                                                            <input placeholder="Квартира" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_small">
-                                                            <input placeholder="Під’їзд" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_small">
-                                                            <input placeholder="Поверх" autocomplete='off' type='text'
-                                                                name='form[]' class='form__input text'>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_btn">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <button type='button'
-                                                                class='form__btn form__btn_next btn'>Наступний
-                                                                крок</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="item-shops__phone">
+                                        <span>тел:</span>
+                                        <a href="tel:+380661292877">066-129-28-77</a>
                                     </div>
-                                    <div class="checkout__item item-checkout">
-                                        <div class="item-checkout__content">
-                                            <div class="item-checkout__top top-item-checkout">
-                                                <h5 class="top-item-checkout__title checkout__title">3. Спосіб оплати
-                                                </h5>
-                                                <a href="" class="top-item-checkout__btn text">Змінити</a>
-                                                <span class="top-item-checkout__info text">Не заповнено</span>
-                                            </div>
-                                            <div class="item-checkout__body">
-                                                <div class="item-checkout__inputs">
-                                                    <div class="form__item form__item_options-checkout">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div
-                                                                    class="options-checkout__item options-checkout__item_big">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="payment1" autocomplete='off'
-                                                                            type='radio' name='payment'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="payment1"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Оплата при отриманні
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-icon">
-                                                                                        <img src="img/icons/payment-1.svg"
-                                                                                            alt="payment-icon">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div
-                                                                    class="options-checkout__item options-checkout__item_big">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="payment2" autocomplete='off'
-                                                                            type='radio' name='payment'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="payment2"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Оплата за реквізитами
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-icon">
-                                                                                        <img src="img/icons/payment-2.svg"
-                                                                                            alt="payment-icon">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="item-checkout__options options-checkout">
-                                                                <div
-                                                                    class="options-checkout__item options-checkout__item_big">
-                                                                    <div class="options-checkout__body">
-                                                                        <input id="payment3" autocomplete='off'
-                                                                            type='radio' name='payment'
-                                                                            class='options-checkout__input'>
-                                                                        <label for="payment3"
-                                                                            class="options-checkout__label label-options-checkout">
-                                                                            <div class="label-options-checkout__row">
-                                                                                <div
-                                                                                    class="label-options-checkout__value">
-                                                                                    <div
-                                                                                        class="label-options-checkout__value-text">
-                                                                                        Онлайн-оплата
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div
-                                                                                    class="label-options-checkout__other">
-                                                                                    <div
-                                                                                        class="label-options-checkout__other-icon">
-                                                                                        <img src="img/icons/payment-3.svg"
-                                                                                            alt="payment-icon">
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </label>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_big">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__checkbox checkbox">
-                                                                <div class="checkbox__item">
-                                                                    <input id="confirmation" type='checkbox'
-                                                                        name='form[]' class='checkbox__input'>
-                                                                    <label for="confirmation"
-                                                                        class="checkbox__label text">
-                                                                        Замовлення підтверджую, не передзвонювати мені
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_big">
-                                                        <div class="form__item-column form__item-column_full">
-                                                            <div class="form__checkbox checkbox">
-                                                                <div class="checkbox__item">
-                                                                    <input id="privacyPolicy" type='checkbox'
-                                                                        name='form[]' class='checkbox__input'>
-                                                                    <label for="privacyPolicy"
-                                                                        class="checkbox__label text">
-                                                                        Погоджуюсь з Політикою
-                                                                        Конфіденційності
-                                                                    </label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form__item form__item_btn form__item_submit">
-                                                        <div class="form__item-column form__item-column_medium">
-                                                            <button type='submit' class='form__btn btn btn_bg'>Оформити
-                                                                замовлення</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <a href="https://maps.app.goo.gl/dxY1LQfDo4xoXrHD7" target="_blank"
+                                        class="item-shops__map">
+                                        <span class="item-shops__map-icon"><svg width="10" height="12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 4.532c0 3.111-4 5.778-4 5.778S1 7.643 1 4.532a4 4 0 118 0z"
+                                                    stroke="#181818" stroke-width=".965" />
+                                                <path d="M5.001 5.865a1.333 1.333 0 100-2.666 1.333 1.333 0 000 2.666z"
+                                                    stroke="#181818" stroke-width=".965" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M2.555 11.468h4.889" stroke="#181818" stroke-width=".965" />
+                                            </svg>
+                                        </span>
+                                        <span class="item-shops__map-link">Показати на мапі</span>
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="checkout__column checkout__column_order">
-                            <div class="checkout__order order-checkout">
-                                <h5 class="order-checkout__title checkout__title">Підсумок замовлення</h5>
-                                <div class="order-checkout__cards cart__cards">
-                                    <div class="cart__card card-cart">
-                                        <a href="product_page.html" class="card-cart__image">
-                                            <img src="img/products/05.jpg" alt="product-img">
-                                        </a>
-                                        <div class="card-cart__body">
-                                            <div class="card-cart__top">
-                                                <div class="card-cart__article small-text">99876656</div>
-                                                <a href="" class="card-cart__delete">
-                                                    <svg>
-                                                        <use xlink:href="#delete"></use>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <a href="product_page.html" class="card-cart__name medium-text">
-                                                Туфлі Karl Lagerfeld SARABANDE
-                                            </a>
-                                            <div class="card-cart__info info-card-cart">
-                                                <div class="info-card-cart__column">
-                                                    <div class="info-card-cart__size text">37 р.</div>
-                                                    <div class="info-card-cart__color text info-card-cart__black">
-                                                        Чорний
-                                                    </div>
-                                                </div>
-                                                <div class="info-card-cart__column">
-                                                    <div class="info-card-cart__old-price small-text">4990 ₴</div>
-                                                    <div class="info-card-cart__price big-text">4990 ₴</div>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="shops__column">
+                                <div class="shops__item item-shops">
+                                    <div class="item-shops__title">ТРЦ Район</div>
+                                    <div class="item-shops__adress">вул. Миколи Лаврухіна 4</div>
+                                    <div class="item-shops__find">
+                                        Центральній вхід, 2-й поверх
                                     </div>
-                                    <div class="cart__card card-cart">
-                                        <a href="product_page.html" class="card-cart__image">
-                                            <img src="img/products/05.jpg" alt="product-img">
-                                        </a>
-                                        <div class="card-cart__body">
-                                            <div class="card-cart__top">
-                                                <div class="card-cart__article small-text">99876656</div>
-                                                <a href="" class="card-cart__delete">
-                                                    <svg>
-                                                        <use xlink:href="#delete"></use>
-                                                    </svg>
-                                                </a>
-                                            </div>
-                                            <a href="product_page.html" class="card-cart__name medium-text">
-                                                Туфлі Karl Lagerfeld SARABANDE
-                                            </a>
-                                            <div class="card-cart__info info-card-cart">
-                                                <div class="info-card-cart__column">
-                                                    <div class="info-card-cart__size text">37 р.</div>
-                                                    <div class="info-card-cart__color text info-card-cart__black">
-                                                        Чорний
-                                                    </div>
-                                                </div>
-                                                <div class="info-card-cart__column">
-                                                    <div class="info-card-cart__old-price small-text">4990 ₴</div>
-                                                    <div class="info-card-cart__price big-text">4990 ₴</div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="item-shops__time">
+                                        щоденно
+                                        <span>10:00 - 22:00</span>
                                     </div>
+                                    <div class="item-shops__phone">
+                                        <span>тел:</span>
+                                        <a href="tel:+380950822321">095-082-23-21</a>
+                                    </div>
+                                    <a href="https://maps.app.goo.gl/v3gkidwzxqi76qLS8" target="_blank"
+                                        class="item-shops__map">
+                                        <span class="item-shops__map-icon"><svg width="10" height="12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 4.532c0 3.111-4 5.778-4 5.778S1 7.643 1 4.532a4 4 0 118 0z"
+                                                    stroke="#181818" stroke-width=".965" />
+                                                <path d="M5.001 5.865a1.333 1.333 0 100-2.666 1.333 1.333 0 000 2.666z"
+                                                    stroke="#181818" stroke-width=".965" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M2.555 11.468h4.889" stroke="#181818" stroke-width=".965" />
+                                            </svg>
+                                        </span>
+                                        <span class="item-shops__map-link">Показати на мапі</span>
+                                    </a>
                                 </div>
-                                <div class="order-checkout__promocode promocode">
-                                    <div class="promocode__item">
-                                        <div class="promocode__column">
-                                            <input placeholder="Промокод" autocomplete='off' type='text' name='form[]'
-                                                class='promocode__input text'>
-                                        </div>
-                                        <div class="promocode__column">
-                                            <button type='button' class='promocode__btn text'>Застосувати
-                                                промокод</button>
-                                        </div>
+                            </div>
+                            <div class="shops__column">
+                                <div class="shops__item item-shops">
+                                    <div class="item-shops__title">ТРЦ RETROVILLE</div>
+                                    <div class="item-shops__adress">пр-т Європейського союзу, 47</div>
+                                    <div class="item-shops__find">
+                                        1й поверх
                                     </div>
-                                    <div class="promocode__item promocode__item_textarea">
-                                        <div class="promocode__column promocode__column_big">
-                                            <textarea placeholder="Коментар до замовлення" name="form[]"
-                                                class='promocode__input promocode__textarea text'></textarea>
-                                        </div>
+                                    <div class="item-shops__time">
+                                        щоденно
+                                        <span>10:00 - 22:00</span>
                                     </div>
-                                </div>
-                                <div class="order-checkout__total-price total-price">
-                                    <div class="total-price__item">
-                                        <div class="total-price__label text">3 товари на сумму</div>
-                                        <div class="total-price__value text">
-                                            4990 ₴
-                                        </div>
+                                    <div class="item-shops__phone">
+                                        <span>тел:</span>
+                                        <a href="tel:+380987989746">098-798-97-46</a>
                                     </div>
-                                    <div class="total-price__item">
-                                        <div class="total-price__label text">Знижка</div>
-                                        <div class="total-price__value text">
-                                            4990 ₴
-                                        </div>
-                                    </div>
-                                    <div class="total-price__item">
-                                        <div class="total-price__label text">Загальна сума </div>
-                                        <div class="total-price__value big-text total-price__value_all">
-                                            4990 ₴
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="order-checkout__notification options">
-                                    <div class="order-checkout__notification-text text">
-                                        <p>Виберіть спосіб, за яким вам зручно отримувати сповіщення</p>
-                                    </div>
-                                    <div class="order-checkout__notification-row">
-                                        <div class="options__item">
-                                            <input id="notificationViber" autocomplete='off' type='radio'
-                                                name='secondFilter' class='options__input'>
-                                            <label for="notificationViber" class="options__label text">
-                                                Viber
-                                            </label>
-                                        </div>
-                                        <div class="options__item">
-                                            <input id="notificationTelegram" autocomplete='off' type='radio'
-                                                name='secondFilter' class='options__input'>
-                                            <label for="notificationTelegram" class="options__label text">
-                                                Telegram
-                                            </label>
-                                        </div>
-                                        <div class="options__item">
-                                            <input id="notificationEmail" autocomplete='off' type='radio'
-                                                name='secondFilter' class='options__input'>
-                                            <label for="notificationEmail" class="options__label text">
-                                                E-mail
-                                            </label>
-                                        </div>
-                                        <div class="options__item">
-                                            <input id="notificationSMS" autocomplete='off' type='radio'
-                                                name='secondFilter' class='options__input'>
-                                            <label for="notificationSMS" class="options__label text">
-                                                SMS
-                                            </label>
-                                        </div>
-                                    </div>
+                                    <a href="https://maps.app.goo.gl/uVgoK1fxx3JeTwGM6" target="_blank"
+                                        class="item-shops__map">
+                                        <span class="item-shops__map-icon"><svg width="10" height="12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9 4.532c0 3.111-4 5.778-4 5.778S1 7.643 1 4.532a4 4 0 118 0z"
+                                                    stroke="#181818" stroke-width=".965" />
+                                                <path d="M5.001 5.865a1.333 1.333 0 100-2.666 1.333 1.333 0 000 2.666z"
+                                                    stroke="#181818" stroke-width=".965" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M2.555 11.468h4.889" stroke="#181818" stroke-width=".965" />
+                                            </svg>
+                                        </span>
+                                        <span class="item-shops__map-link">Показати на мапі</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </form>
+                </div>
             </section>
         </main>
         <footer class="footer">

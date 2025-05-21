@@ -162,6 +162,10 @@ body.lock {
   }
 }
 
+main {
+  flex: 1 1 100%;
+}
+
 .container {
   margin: 0 auto;
   width: 100%;
@@ -3538,6 +3542,10 @@ h6 {
 }
 .socials__link_facebook svg {
   width: 14px;
+  height: 24px;
+}
+.socials__link_tiktok svg {
+  width: 24px;
   height: 24px;
 }
 
@@ -9370,5 +9378,188 @@ h6 {
   }
   100% {
     background-color: #A0D1E6;
+  }
+}
+.shops {
+  padding: 54px 0;
+}
+@media (max-width: 1024.98px) {
+  .shops {
+    padding: 47px 0;
+  }
+}
+@media (max-width: 768.98px) {
+  .shops {
+    padding: 40px 0;
+  }
+}
+@media (max-width: 480.98px) {
+  .shops {
+    padding: 32px 0;
+  }
+}
+.shops__top {
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.shops__top:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+.shops__title {
+  color: #282828;
+}
+@media (max-width: 1372px) {
+  .shops__title {
+    font-size: 51px;
+  }
+}
+@media (max-width: 1024.98px) {
+  .shops__title {
+    font-size: 46px;
+  }
+}
+@media (max-width: 768.98px) {
+  .shops__title {
+    font-size: 41px;
+  }
+}
+@media (max-width: 480.98px) {
+  .shops__title {
+    font-size: 36px;
+  }
+}
+.shops__city {
+  color: #282828;
+  font-family: TenorSans;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+.shops__city:not(:last-child) {
+  margin: 0 0 30px 0;
+}
+@media (max-width: 1372px) {
+  .shops__city {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024.98px) {
+  .shops__city {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768.98px) {
+  .shops__city {
+    font-size: 26px;
+  }
+}
+@media (max-width: 480.98px) {
+  .shops__city {
+    font-size: 24px;
+  }
+}
+.shops__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+.shops__column {
+  flex: 0 1 33.333%;
+  padding: 0 20px;
+  margin: 0 0 40px 0;
+}
+@media (max-width: 900px) {
+  .shops__column {
+    flex: 0 1 50%;
+  }
+}
+@media (max-width: 600px) {
+  .shops__column {
+    flex: 1 1 100%;
+  }
+}
+.item-shops__title {
+  color: #282828;
+  font-size: 18px;
+  font-weight: 500;
+}
+.item-shops__title:not(:last-child) {
+  margin: 0 0 20px 0;
+}
+.item-shops__adress {
+  color: #282828;
+  font-size: 16px;
+  font-weight: 500;
+}
+.item-shops__adress:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+.item-shops__find {
+  font-size: 14px;
+  font-weight: 400;
+}
+.item-shops__find:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+.item-shops__time {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.item-shops__time:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+.item-shops__time span {
+  display: inline-flex;
+  margin: 0 0 0 5px;
+  font-weight: 500;
+}
+.item-shops__phone {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #282828;
+}
+.item-shops__phone:not(:last-child) {
+  margin: 0 0 15px 0;
+}
+.item-shops__phone span {
+  display: inline-flex;
+}
+.item-shops__phone span:not(:last-child) {
+  margin: 0 5px 0 0;
+}
+.item-shops__phone a {
+  color: #282828;
+  transition: all 0.3s ease-out;
+}
+@media (min-width: 1024.98px) {
+  .item-shops__phone a:hover {
+    color: #490013;
+  }
+}
+.item-shops__map {
+  display: inline-flex;
+  align-items: center;
+}
+.item-shops__map-icon {
+  flex: 0 0 10px;
+  height: 12px;
+  display: inline-flex;
+  margin: 0 5px 0 0;
+}
+.item-shops__map-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #282828;
+  text-decoration: underline;
+  transition: all 0.3s ease-out;
+}
+@media (min-width: 1024.98px) {
+  .item-shops__map-link:hover {
+    color: #490013;
   }
 }
